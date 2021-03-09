@@ -1,7 +1,11 @@
 class Bank:
     def __init__(self):
         self.balance = 0
-        print("Hello Welcome To SBI")
+
+        n = input("Enter the name:")
+        a = int(input("Enter the account number:"))
+        t = input("Enter the type of account:")
+        print("Hello", n, " Welcome To SBI")
 
     def deposit(self):
         amount = float(input("Enter the amount  to be deposited:"))
